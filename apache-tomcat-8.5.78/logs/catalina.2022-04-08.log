@@ -1,0 +1,368 @@
+08-Apr-2022 19:58:23.717 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.78
+08-Apr-2022 19:58:23.722 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Mar 31 2022 16:05:28 UTC
+08-Apr-2022 19:58:23.722 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      8.5.78.0
+08-Apr-2022 19:58:23.722 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+08-Apr-2022 19:58:23.722 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+08-Apr-2022 19:58:23.723 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+08-Apr-2022 19:58:23.723 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\JAVA\jdk-11.0.13
+08-Apr-2022 19:58:23.723 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    11.0.13+10-LTS-370
+08-Apr-2022 19:58:23.723 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+08-Apr-2022 19:58:23.724 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\张照翔\tomcat8\apache-tomcat-8.5.78
+08-Apr-2022 19:58:23.724 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\张照翔\tomcat8\apache-tomcat-8.5.78
+08-Apr-2022 19:58:23.724 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Apr-2022 19:58:23.725 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+08-Apr-2022 19:58:23.725 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+08-Apr-2022 19:58:23.725 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Apr-2022 19:58:23.729 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Apr-2022 19:58:23.730 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=E:\张照翔\tomcat8\apache-tomcat-8.5.78\conf\logging.properties
+08-Apr-2022 19:58:23.731 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Apr-2022 19:58:23.732 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+08-Apr-2022 19:58:23.733 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Apr-2022 19:58:23.734 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+08-Apr-2022 19:58:23.734 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=E:\张照翔\tomcat8\apache-tomcat-8.5.78
+08-Apr-2022 19:58:23.735 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=E:\张照翔\tomcat8\apache-tomcat-8.5.78
+08-Apr-2022 19:58:23.735 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=E:\张照翔\tomcat8\apache-tomcat-8.5.78\temp
+08-Apr-2022 19:58:23.735 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.32]。
+08-Apr-2022 19:58:23.738 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [{4}]。
+08-Apr-2022 19:58:23.740 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+08-Apr-2022 19:58:23.754 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1n  15 Mar 2022]
+08-Apr-2022 19:58:23.796 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+08-Apr-2022 19:58:23.830 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 561 ms
+08-Apr-2022 19:58:23.897 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+08-Apr-2022 19:58:23.898 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/8.5.78]
+08-Apr-2022 19:58:23.914 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\张照翔\tomcat8\apache-tomcat-8.5.78\webapps\docs]
+08-Apr-2022 19:58:24.288 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom 使用[SHA1PRNG]创建会话ID生成的SecureRandom实例花费了[108]毫秒。
+08-Apr-2022 19:58:24.309 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\张照翔\tomcat8\apache-tomcat-8.5.78\webapps\docs]的部署已在[395]毫秒内完成
+08-Apr-2022 19:58:24.310 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\张照翔\tomcat8\apache-tomcat-8.5.78\webapps\examples]
+08-Apr-2022 19:58:24.629 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\张照翔\tomcat8\apache-tomcat-8.5.78\webapps\examples]的部署已在[319]毫秒内完成
+08-Apr-2022 19:58:24.631 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\张照翔\tomcat8\apache-tomcat-8.5.78\webapps\host-manager]
+08-Apr-2022 19:58:24.668 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\张照翔\tomcat8\apache-tomcat-8.5.78\webapps\host-manager]的部署已在[37]毫秒内完成
+08-Apr-2022 19:58:24.684 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\张照翔\tomcat8\apache-tomcat-8.5.78\webapps\manager]
+08-Apr-2022 19:58:24.713 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\张照翔\tomcat8\apache-tomcat-8.5.78\webapps\manager]的部署已在[29]毫秒内完成
+08-Apr-2022 19:58:24.714 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\张照翔\tomcat8\apache-tomcat-8.5.78\webapps\ROOT]
+08-Apr-2022 19:58:24.735 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\张照翔\tomcat8\apache-tomcat-8.5.78\webapps\ROOT]的部署已在[21]毫秒内完成
+08-Apr-2022 19:58:24.742 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+08-Apr-2022 19:58:24.856 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1025 ms
+08-Apr-2022 20:20:49.087 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.78
+08-Apr-2022 20:20:49.091 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Mar 31 2022 16:05:28 UTC
+08-Apr-2022 20:20:49.091 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      8.5.78.0
+08-Apr-2022 20:20:49.092 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+08-Apr-2022 20:20:49.092 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+08-Apr-2022 20:20:49.092 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+08-Apr-2022 20:20:49.092 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\JAVA\jdk-11.0.13
+08-Apr-2022 20:20:49.093 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    11.0.13+10-LTS-370
+08-Apr-2022 20:20:49.093 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+08-Apr-2022 20:20:49.093 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\张照翔\tomcat8\apache-tomcat-8.5.78
+08-Apr-2022 20:20:49.093 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\张照翔\tomcat8\apache-tomcat-8.5.78
+08-Apr-2022 20:20:49.094 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Apr-2022 20:20:49.094 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+08-Apr-2022 20:20:49.094 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+08-Apr-2022 20:20:49.094 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Apr-2022 20:20:49.095 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Apr-2022 20:20:49.095 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=E:\张照翔\tomcat8\apache-tomcat-8.5.78\conf\logging.properties
+08-Apr-2022 20:20:49.095 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Apr-2022 20:20:49.096 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+08-Apr-2022 20:20:49.096 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Apr-2022 20:20:49.096 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+08-Apr-2022 20:20:49.097 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=E:\张照翔\tomcat8\apache-tomcat-8.5.78
+08-Apr-2022 20:20:49.097 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=E:\张照翔\tomcat8\apache-tomcat-8.5.78
+08-Apr-2022 20:20:49.098 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=E:\张照翔\tomcat8\apache-tomcat-8.5.78\temp
+08-Apr-2022 20:20:49.098 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.32]。
+08-Apr-2022 20:20:49.100 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [{4}]。
+08-Apr-2022 20:20:49.100 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+08-Apr-2022 20:20:49.106 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1n  15 Mar 2022]
+08-Apr-2022 20:20:49.142 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+08-Apr-2022 20:20:49.164 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 478 ms
+08-Apr-2022 20:20:49.208 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+08-Apr-2022 20:20:49.208 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/8.5.78]
+08-Apr-2022 20:20:49.221 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\张照翔\tomcat8\apache-tomcat-8.5.78\webapps\docs]
+08-Apr-2022 20:20:49.540 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom 使用[SHA1PRNG]创建会话ID生成的SecureRandom实例花费了[102]毫秒。
+08-Apr-2022 20:20:49.558 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\张照翔\tomcat8\apache-tomcat-8.5.78\webapps\docs]的部署已在[337]毫秒内完成
+08-Apr-2022 20:20:49.559 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\张照翔\tomcat8\apache-tomcat-8.5.78\webapps\examples]
+08-Apr-2022 20:20:49.837 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\张照翔\tomcat8\apache-tomcat-8.5.78\webapps\examples]的部署已在[278]毫秒内完成
+08-Apr-2022 20:20:49.845 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\张照翔\tomcat8\apache-tomcat-8.5.78\webapps\host-manager]
+08-Apr-2022 20:20:49.875 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\张照翔\tomcat8\apache-tomcat-8.5.78\webapps\host-manager]的部署已在[30]毫秒内完成
+08-Apr-2022 20:20:49.878 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\张照翔\tomcat8\apache-tomcat-8.5.78\webapps\manager]
+08-Apr-2022 20:20:49.902 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\张照翔\tomcat8\apache-tomcat-8.5.78\webapps\manager]的部署已在[24]毫秒内完成
+08-Apr-2022 20:20:49.903 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\张照翔\tomcat8\apache-tomcat-8.5.78\webapps\ROOT]
+08-Apr-2022 20:20:49.919 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\张照翔\tomcat8\apache-tomcat-8.5.78\webapps\ROOT]的部署已在[16]毫秒内完成
+08-Apr-2022 20:20:49.923 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+08-Apr-2022 20:20:50.040 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 875 ms
+08-Apr-2022 20:34:10.516 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.78
+08-Apr-2022 20:34:10.537 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Mar 31 2022 16:05:28 UTC
+08-Apr-2022 20:34:10.538 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      8.5.78.0
+08-Apr-2022 20:34:10.541 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+08-Apr-2022 20:34:10.542 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+08-Apr-2022 20:34:10.543 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+08-Apr-2022 20:34:10.544 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Users\zzx\.jdks\openjdk-17.0.1
+08-Apr-2022 20:34:10.546 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    17.0.1+12-39
+08-Apr-2022 20:34:10.547 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+08-Apr-2022 20:34:10.547 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\WeChat\project1\tomcat8\apache-tomcat-8.5.78
+08-Apr-2022 20:34:10.547 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\WeChat\project1\tomcat8\apache-tomcat-8.5.78
+08-Apr-2022 20:34:10.548 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Apr-2022 20:34:10.549 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+08-Apr-2022 20:34:10.549 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+08-Apr-2022 20:34:10.550 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Apr-2022 20:34:10.551 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Apr-2022 20:34:10.552 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=E:\WeChat\project1\tomcat8\apache-tomcat-8.5.78\conf\logging.properties
+08-Apr-2022 20:34:10.552 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Apr-2022 20:34:10.553 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+08-Apr-2022 20:34:10.554 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Apr-2022 20:34:10.554 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+08-Apr-2022 20:34:10.555 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=E:\WeChat\project1\tomcat8\apache-tomcat-8.5.78
+08-Apr-2022 20:34:10.556 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=E:\WeChat\project1\tomcat8\apache-tomcat-8.5.78
+08-Apr-2022 20:34:10.556 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=E:\WeChat\project1\tomcat8\apache-tomcat-8.5.78\temp
+08-Apr-2022 20:34:10.558 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.32]。
+08-Apr-2022 20:34:10.572 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [{4}]。
+08-Apr-2022 20:34:10.576 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+08-Apr-2022 20:34:10.592 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1n  15 Mar 2022]
+08-Apr-2022 20:34:10.716 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+08-Apr-2022 20:34:10.791 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1323 ms
+08-Apr-2022 20:34:10.914 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+08-Apr-2022 20:34:10.915 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/8.5.78]
+08-Apr-2022 20:34:10.964 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\WeChat\project1\tomcat8\apache-tomcat-8.5.78\webapps\docs]
+08-Apr-2022 20:34:11.878 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom 使用[SHA1PRNG]创建会话ID生成的SecureRandom实例花费了[146]毫秒。
+08-Apr-2022 20:34:11.957 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\WeChat\project1\tomcat8\apache-tomcat-8.5.78\webapps\docs]的部署已在[993]毫秒内完成
+08-Apr-2022 20:34:11.987 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\WeChat\project1\tomcat8\apache-tomcat-8.5.78\webapps\examples]
+08-Apr-2022 20:34:12.826 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\WeChat\project1\tomcat8\apache-tomcat-8.5.78\webapps\examples]的部署已在[840]毫秒内完成
+08-Apr-2022 20:34:12.843 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\WeChat\project1\tomcat8\apache-tomcat-8.5.78\webapps\host-manager]
+08-Apr-2022 20:34:12.935 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\WeChat\project1\tomcat8\apache-tomcat-8.5.78\webapps\host-manager]的部署已在[92]毫秒内完成
+08-Apr-2022 20:34:12.944 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\WeChat\project1\tomcat8\apache-tomcat-8.5.78\webapps\manager]
+08-Apr-2022 20:34:13.034 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\WeChat\project1\tomcat8\apache-tomcat-8.5.78\webapps\manager]的部署已在[90]毫秒内完成
+08-Apr-2022 20:34:13.050 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\WeChat\project1\tomcat8\apache-tomcat-8.5.78\webapps\ROOT]
+08-Apr-2022 20:34:13.104 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\WeChat\project1\tomcat8\apache-tomcat-8.5.78\webapps\ROOT]的部署已在[54]毫秒内完成
+08-Apr-2022 20:34:13.118 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+08-Apr-2022 20:34:13.267 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 2474 ms
+08-Apr-2022 15:26:24.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.78
+08-Apr-2022 15:26:24.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 16:05:28 UTC
+08-Apr-2022 15:26:24.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.78.0
+08-Apr-2022 15:26:24.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+08-Apr-2022 15:26:24.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+08-Apr-2022 15:26:24.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Apr-2022 15:26:24.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Android\Android Studio\jre
+08-Apr-2022 15:26:24.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.11+9-b60-7590822
+08-Apr-2022 15:26:24.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            JetBrains s.r.o
+08-Apr-2022 15:26:24.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78
+08-Apr-2022 15:26:24.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78
+08-Apr-2022 15:26:24.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Apr-2022 15:26:24.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-Apr-2022 15:26:24.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+08-Apr-2022 15:26:24.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Apr-2022 15:26:24.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Apr-2022 15:26:24.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\conf\logging.properties
+08-Apr-2022 15:26:24.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Apr-2022 15:26:24.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Apr-2022 15:26:24.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Apr-2022 15:26:24.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Apr-2022 15:26:24.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78
+08-Apr-2022 15:26:24.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78
+08-Apr-2022 15:26:24.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\temp
+08-Apr-2022 15:26:24.428 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+08-Apr-2022 15:26:24.428 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [{4}].
+08-Apr-2022 15:26:24.428 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+08-Apr-2022 15:26:24.428 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+08-Apr-2022 15:26:24.459 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Apr-2022 15:26:24.475 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 370 ms
+08-Apr-2022 15:26:24.522 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Apr-2022 15:26:24.522 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.78]
+08-Apr-2022 15:26:24.522 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\docs]
+08-Apr-2022 15:26:24.913 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [219] milliseconds.
+08-Apr-2022 15:26:24.944 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\docs] has finished in [422] ms
+08-Apr-2022 15:26:24.944 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\examples]
+08-Apr-2022 15:26:25.131 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\examples] has finished in [187] ms
+08-Apr-2022 15:26:25.131 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\host-manager]
+08-Apr-2022 15:26:25.147 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\host-manager] has finished in [16] ms
+08-Apr-2022 15:26:25.147 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\manager]
+08-Apr-2022 15:26:25.163 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\manager] has finished in [16] ms
+08-Apr-2022 15:26:25.163 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\ROOT]
+08-Apr-2022 15:26:25.178 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\ROOT] has finished in [15] ms
+08-Apr-2022 15:26:25.194 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Apr-2022 15:26:25.428 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 950 ms
+08-Apr-2022 15:34:29.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.78
+08-Apr-2022 15:34:29.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 16:05:28 UTC
+08-Apr-2022 15:34:29.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.78.0
+08-Apr-2022 15:34:29.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+08-Apr-2022 15:34:29.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+08-Apr-2022 15:34:29.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Apr-2022 15:34:29.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Android\Android Studio\jre
+08-Apr-2022 15:34:29.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.11+9-b60-7590822
+08-Apr-2022 15:34:29.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            JetBrains s.r.o
+08-Apr-2022 15:34:29.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78
+08-Apr-2022 15:34:29.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78
+08-Apr-2022 15:34:29.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Apr-2022 15:34:29.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-Apr-2022 15:34:29.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+08-Apr-2022 15:34:29.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Apr-2022 15:34:29.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Apr-2022 15:34:29.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\conf\logging.properties
+08-Apr-2022 15:34:29.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Apr-2022 15:34:29.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Apr-2022 15:34:29.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Apr-2022 15:34:29.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Apr-2022 15:34:29.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78
+08-Apr-2022 15:34:29.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78
+08-Apr-2022 15:34:29.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\temp
+08-Apr-2022 15:34:29.513 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+08-Apr-2022 15:34:29.513 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [{4}].
+08-Apr-2022 15:34:29.513 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+08-Apr-2022 15:34:29.528 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+08-Apr-2022 15:34:29.544 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Apr-2022 15:34:29.560 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 341 ms
+08-Apr-2022 15:34:29.607 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Apr-2022 15:34:29.607 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.78]
+08-Apr-2022 15:34:29.607 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\docs]
+08-Apr-2022 15:34:29.997 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [219] milliseconds.
+08-Apr-2022 15:34:30.013 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\docs] has finished in [406] ms
+08-Apr-2022 15:34:30.013 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\examples]
+08-Apr-2022 15:34:30.200 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\examples] has finished in [187] ms
+08-Apr-2022 15:34:30.200 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\host-manager]
+08-Apr-2022 15:34:30.216 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\host-manager] has finished in [16] ms
+08-Apr-2022 15:34:30.216 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\manager]
+08-Apr-2022 15:34:30.232 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\manager] has finished in [16] ms
+08-Apr-2022 15:34:30.232 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\ROOT]
+08-Apr-2022 15:34:30.247 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\ROOT] has finished in [15] ms
+08-Apr-2022 15:34:30.247 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Apr-2022 15:34:30.498 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 928 ms
+08-Apr-2022 15:35:49.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.78
+08-Apr-2022 15:35:49.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 16:05:28 UTC
+08-Apr-2022 15:35:49.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.78.0
+08-Apr-2022 15:35:49.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+08-Apr-2022 15:35:49.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+08-Apr-2022 15:35:49.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Apr-2022 15:35:49.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Android\Android Studio\jre
+08-Apr-2022 15:35:49.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.11+9-b60-7590822
+08-Apr-2022 15:35:49.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            JetBrains s.r.o
+08-Apr-2022 15:35:49.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78
+08-Apr-2022 15:35:49.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78
+08-Apr-2022 15:35:49.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Apr-2022 15:35:49.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-Apr-2022 15:35:49.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+08-Apr-2022 15:35:49.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Apr-2022 15:35:49.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Apr-2022 15:35:49.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\conf\logging.properties
+08-Apr-2022 15:35:49.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Apr-2022 15:35:49.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Apr-2022 15:35:49.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Apr-2022 15:35:49.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Apr-2022 15:35:49.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78
+08-Apr-2022 15:35:49.914 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78
+08-Apr-2022 15:35:49.914 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\temp
+08-Apr-2022 15:35:49.914 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+08-Apr-2022 15:35:49.914 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [{4}].
+08-Apr-2022 15:35:49.914 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+08-Apr-2022 15:35:49.917 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+08-Apr-2022 15:35:49.942 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Apr-2022 15:35:49.961 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 344 ms
+08-Apr-2022 15:35:50.001 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Apr-2022 15:35:50.002 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.78]
+08-Apr-2022 15:35:50.011 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\docs]
+08-Apr-2022 15:35:50.390 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [220] milliseconds.
+08-Apr-2022 15:35:50.403 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\docs] has finished in [392] ms
+08-Apr-2022 15:35:50.404 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\examples]
+08-Apr-2022 15:35:50.583 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\examples] has finished in [179] ms
+08-Apr-2022 15:35:50.584 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\host-manager]
+08-Apr-2022 15:35:50.603 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\host-manager] has finished in [19] ms
+08-Apr-2022 15:35:50.603 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\manager]
+08-Apr-2022 15:35:50.619 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\manager] has finished in [15] ms
+08-Apr-2022 15:35:50.619 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\ROOT]
+08-Apr-2022 15:35:50.632 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\ROOT] has finished in [12] ms
+08-Apr-2022 15:35:50.635 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Apr-2022 15:35:50.879 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 917 ms
+08-Apr-2022 16:36:39.244 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Apr-2022 16:36:39.464 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-Apr-2022 16:36:39.492 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Apr-2022 16:36:39.508 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-Apr-2022 16:52:15.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.78
+08-Apr-2022 16:52:15.185 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 16:05:28 UTC
+08-Apr-2022 16:52:15.185 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.78.0
+08-Apr-2022 16:52:15.185 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+08-Apr-2022 16:52:15.185 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+08-Apr-2022 16:52:15.186 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Apr-2022 16:52:15.186 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Android\Android Studio\jre
+08-Apr-2022 16:52:15.186 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.11+9-b60-7590822
+08-Apr-2022 16:52:15.186 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            JetBrains s.r.o
+08-Apr-2022 16:52:15.186 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78
+08-Apr-2022 16:52:15.186 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78
+08-Apr-2022 16:52:15.187 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Apr-2022 16:52:15.187 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-Apr-2022 16:52:15.187 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+08-Apr-2022 16:52:15.187 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Apr-2022 16:52:15.187 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Apr-2022 16:52:15.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\conf\logging.properties
+08-Apr-2022 16:52:15.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Apr-2022 16:52:15.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Apr-2022 16:52:15.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Apr-2022 16:52:15.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Apr-2022 16:52:15.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78
+08-Apr-2022 16:52:15.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78
+08-Apr-2022 16:52:15.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\temp
+08-Apr-2022 16:52:15.189 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+08-Apr-2022 16:52:15.189 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [{4}].
+08-Apr-2022 16:52:15.189 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+08-Apr-2022 16:52:15.192 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+08-Apr-2022 16:52:15.210 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Apr-2022 16:52:15.225 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 338 ms
+08-Apr-2022 16:52:15.261 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Apr-2022 16:52:15.261 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.78]
+08-Apr-2022 16:52:15.276 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\docs]
+08-Apr-2022 16:52:15.655 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [230] milliseconds.
+08-Apr-2022 16:52:15.657 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\docs] has finished in [381] ms
+08-Apr-2022 16:52:15.657 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\examples]
+08-Apr-2022 16:52:15.852 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\examples] has finished in [195] ms
+08-Apr-2022 16:52:15.852 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\host-manager]
+08-Apr-2022 16:52:15.887 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\host-manager] has finished in [35] ms
+08-Apr-2022 16:52:15.887 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\manager]
+08-Apr-2022 16:52:15.903 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\manager] has finished in [16] ms
+08-Apr-2022 16:52:15.903 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\ROOT]
+08-Apr-2022 16:52:15.914 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\ROOT] has finished in [11] ms
+08-Apr-2022 16:52:15.917 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Apr-2022 16:52:16.156 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 918 ms
+08-Apr-2022 17:08:15.587 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Apr-2022 17:08:15.774 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-Apr-2022 17:08:15.796 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Apr-2022 17:08:15.812 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-Apr-2022 17:15:42.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.78
+08-Apr-2022 17:15:42.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 16:05:28 UTC
+08-Apr-2022 17:15:42.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.78.0
+08-Apr-2022 17:15:42.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+08-Apr-2022 17:15:42.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+08-Apr-2022 17:15:42.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Apr-2022 17:15:42.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Android\Android Studio\jre
+08-Apr-2022 17:15:42.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.11+9-b60-7590822
+08-Apr-2022 17:15:42.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            JetBrains s.r.o
+08-Apr-2022 17:15:42.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78
+08-Apr-2022 17:15:42.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78
+08-Apr-2022 17:15:42.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Apr-2022 17:15:42.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-Apr-2022 17:15:42.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+08-Apr-2022 17:15:42.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Apr-2022 17:15:42.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Apr-2022 17:15:42.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\conf\logging.properties
+08-Apr-2022 17:15:42.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Apr-2022 17:15:42.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Apr-2022 17:15:42.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Apr-2022 17:15:42.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Apr-2022 17:15:42.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78
+08-Apr-2022 17:15:42.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78
+08-Apr-2022 17:15:42.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\temp
+08-Apr-2022 17:15:42.687 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+08-Apr-2022 17:15:42.687 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [{4}].
+08-Apr-2022 17:15:42.687 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+08-Apr-2022 17:15:42.687 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+08-Apr-2022 17:15:42.718 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Apr-2022 17:15:42.734 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 349 ms
+08-Apr-2022 17:15:42.780 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Apr-2022 17:15:42.780 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.78]
+08-Apr-2022 17:15:42.780 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\docs]
+08-Apr-2022 17:15:43.156 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [219] milliseconds.
+08-Apr-2022 17:15:43.171 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\docs] has finished in [391] ms
+08-Apr-2022 17:15:43.171 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\examples]
+08-Apr-2022 17:15:43.343 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\examples] has finished in [172] ms
+08-Apr-2022 17:15:43.343 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\host-manager]
+08-Apr-2022 17:15:43.374 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\host-manager] has finished in [31] ms
+08-Apr-2022 17:15:43.374 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\manager]
+08-Apr-2022 17:15:43.390 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\manager] has finished in [16] ms
+08-Apr-2022 17:15:43.390 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\ROOT]
+08-Apr-2022 17:15:43.405 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Cloud Computing\recipeProject\tomcat8\apache-tomcat-8.5.78\webapps\ROOT] has finished in [15] ms
+08-Apr-2022 17:15:43.405 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Apr-2022 17:15:43.640 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 899 ms
