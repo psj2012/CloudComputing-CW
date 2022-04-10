@@ -1,5 +1,5 @@
 # CloudComputing-CW
-This is group 8’s submission for the cloud computing mini project. Our Cloud application is called “Cook Smart”. 
+This is group 8’s submission for the Cloud Computing mini project. Our Cloud application is called “Cook Smart”. 
 
 Our app allows users to search for recipes using metrics such as ingredients and recipe name. Therefore, by using Cook Smart, users can easily find recipes suited to them. As well as, reduce the amount of food waste they would have generated if they didn’t use the ingredients already in their kitchen. User’s also have their own ‘cookbook’ where they can store recipes they have "liked" and view them later. 
 
