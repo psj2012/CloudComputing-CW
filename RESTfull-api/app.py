@@ -10,10 +10,7 @@ from resources.Extend import Get_info_from_extend
 
 
 app=Flask(__name__)
-user = 'postgres'
-password = 'sijia'
-database = 'mydatabase1'
-app.config['SQLALCHEMY_DATABASE_URI']='postgresql://%s:%s@34.142.101.19:5432/%s' % (user, password, database)
+app.config['SQLALCHEMY_DATABASE_URI']='sqlite:///data.db' 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=False
 app.config['PROPAGATE_EXCEPTIONS']=True
 app.secret_key='sijia'
