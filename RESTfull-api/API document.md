@@ -171,16 +171,3 @@ Authorization
 
 
 
-## **Database tables**
-
-### user-info table
-
-|email|encrypted password|
-|---|---|
-|XX@aa.bb|...|
-
-
-### user-like table
-|like_id|user_email|recipe_id|
-|---|---|---|
-|1|xx@a.b|816651|
